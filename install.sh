@@ -25,12 +25,14 @@ fi
 # docker pull 
 
 CONFIG_PATH=/usr/local/etc/turtlepower/xmr-config.txt
-APP_PATH=/usr/local/bin/turtlepower/tp-miner
+APP_PATH=/usr/local/bin/mondo
 
-curl --output "$CONFIG_PATH" -sL "https://raw.githubusercontent.com/michelangelo314/mondo/master/config.txt"
+echo "Installing mondo script. I require sudo for this to install to $APP_PATH"
+
+sudo curl --output "$CONFIG_PATH" -sL "https://raw.githubusercontent.com/michelangelo314/mondo/master/config.txt"
 echo "Miner configuration file installed to ${CONFIG_PATH}"
-curl --output "$APP_PATH" -sL "https://raw.githubusercontent.com/michelangelo314/mondo/master/tp-miner.sh"
-chmod +x "$APP_PATH"
+sudo curl --output "$APP_PATH" -sL "https://raw.githubusercontent.com/michelangelo314/mondo/master/mondo.sh"
+sudo chmod +x "$APP_PATH"
 echo "Miner app file installed to ${APP_PATH}"
 
-echo "Turtle power miner installed! Make sure ${APP_PATH} is on your path and call tp-miner. Cowabunga!!"
+echo "Turtle power miner installed! Make sure ${APP_PATH} is on your path and call mondo. Cowabunga!!"
