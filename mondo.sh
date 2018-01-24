@@ -25,7 +25,7 @@ _start() {
                    "$IMAGE_NAME" /sbin/my_init
         docker cp "$CONFIG_PATH" "$CONTAINER_NAME":/usr/local/etc/config.txt
         docker start "$CONTAINER_NAME"
-        echo "Cowabunga!! You're miner is running. Use stop.sh to stop the miner. Connect to the miner web interface using localhost:8080!! TURTLE POWER!!"
+        echo "Cowabunga!! You're miner is running. Use mondo stop to stop the miner. Connect to the miner web interface using localhost:8080!! TURTLE POWER!!"
     else
         echo "Whoa dude! It looks like $CONTAINER_NAME already has been started!"
     fi

@@ -36,7 +36,7 @@ $ mondo start
 Starting up docker
 8746b6c8f7f5fc1208c4068636016800b465a80eedafc373d96ed778bfa4c9ce
 turtlepower-mondo
-Cowabunga!! You're miner is running. Use stop.sh to stop the miner. Connect to the miner web interface using localhost:8080!! TURTLE POWER!!
+Cowabunga!! You're miner is running. Use mondo stop to stop the miner. Connect to the miner web interface using localhost:8080!! TURTLE POWER!!
 ```
 
 Now you're mining! Cowabunga!! You can check your stats using the xmr-stak http interface from your brower or simply from curl
