@@ -21,7 +21,7 @@ Miner app file installed to /usr/local/bin/mondo
 Turtle power miner installed! Make sure /usr/local/bin/mondo is on your path and call mondo. Cowabunga!!
 ```
 
-The installer will prompt you for sudo access to put the config file into `/usr/local/etc` and the mondo script executible into `/usr/local/bin`. Mondo assumes your user has docker privileges.
+If you dont have docker, it will be installed using apt via sudo. The installer will prompt you for sudo access to put the config file into `/usr/local/etc` and the mondo script executible into `/usr/local/bin`. Mondo assumes your user has docker privileges.
 
 After the installer is completed go ahead and edit the config file and add your pool and wallet details
 
@@ -55,7 +55,7 @@ Go order some pizza and watch the turles roll in!
 
 ### Prerequisites
 
-Docker (https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-16-04)
-curl (`sudo apt-get -y install curl`)
-pepperoni
+* Docker (https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-16-04)
+* curl (`sudo apt-get -y install curl`)
+* pepperoni
 
