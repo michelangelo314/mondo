@@ -70,7 +70,7 @@ echo "Installing mondo script. I require sudo for this to install to $APP_PATH"
 sudo curl --output "$CONFIG_PATH" -sL "https://raw.githubusercontent.com/michelangelo314/mondo/master/config.txt"
 echo "Miner configuration file installed to ${CONFIG_PATH}"
 echo "Open your config file with a text editor and change it to use your pool and wallet information."
-sudo curl --output "$APP_PATH" -sL "https://raw.githubusercontent.com/michelangelo314/mondo/master/mondo.sh"
+sudo curl --output "$APP_PATH" -sL "https://raw.githubusercontent.com/michelangelo314/mondo/master/src/mondo.sh"
 sudo chmod +x "$APP_PATH"
 echo "Miner app file installed to ${APP_PATH}"
 

@@ -1,10 +1,10 @@
 # Turtle Power - Mondo
 
-Cowabunga dudes! Mondo brings us the unified xmr-stak (https://github.com/fireice-uk/xmr-stak/) wrapped up tight in a docker calzone.
+Cowabunga dudes! Mondo brings us the unified xmr-stak (https://github.com/fireice-uk/xmr-stak/) wrapped up tight in a saucy docker calzone.
 
 ### Getting Started
 
-Mondo can be installed on linux using curl:
+Mondo can be installed on Ubuntu or MacOS using curl. Open up your favorite terminal and start typing:
 
 ```
 $ curl -sL https://raw.githubusercontent.com/michelangelo314/mondo/master/install.sh | bash
@@ -55,7 +55,6 @@ Go order some pizza and watch the turles roll in!
 
 ### Prerequisites
 
-* Docker (https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-16-04)
-* curl (`sudo apt-get -y install curl`)
+* curl
 * pepperoni
 

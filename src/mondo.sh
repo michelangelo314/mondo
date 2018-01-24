@@ -2,9 +2,6 @@
 
 ## Starts the turtlepower miner (xmr stak) container
 
-
-## this needs to be turned into an application where $1 selects start or stop
-
 set -o errexit
 set -o pipefail
 
