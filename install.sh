@@ -2,8 +2,6 @@
 
 ## Installs the turtle power miner!
 
-echo "Installing the turtlepower miner!"
-
 _detect_os() {
     if [ "$(uname -s)" = "Darwin" ]; then
         DISTRO=osx
@@ -54,6 +52,11 @@ _check_docker() {
         _install_docker
     fi
 }
+
+set -o errexit
+set -o pipefail
+
+echo "Installing the turtlepower miner!"
 
 # detect os and check docker is installed
 _detect_os
