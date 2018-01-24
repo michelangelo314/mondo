@@ -10,7 +10,7 @@ set -o pipefail
 
 CONTAINER_NAME=turtlepower-mondo
 IMAGE_NAME=turtlepower/mondo
-CONFIG_PATH=/usr/local/etc/turtlepower/xmr-config.txt
+CONFIG_PATH=/usr/local/etc/mondo-config.txt
 
 _print_usage() {
     echo "Usage: $0 <start|stop|help>"
